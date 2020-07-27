@@ -6,6 +6,7 @@ This is a simple Vagrant-based setup of WordPress running with the following com
 - Apache 2.4
 - MariaDB 10.2
 - PHP 7.2
+- WordPress (latest)
 - wp-cli
 
 | App       | User          | Password | Notes             |
