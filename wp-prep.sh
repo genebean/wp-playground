@@ -85,6 +85,9 @@ echo 'update WordPress'
 echo 'set WordPress theme'
 /usr/local/bin/wp --path='/var/www/html' theme activate twentyseventeen
 
+echo 'set timezone to New York'
+/usr/local/bin/wp --path='/var/www/html' option patch update timezone_string America/New_York
+
 chown -R apache:apache /var/www/html
 
 cd /vagrant
